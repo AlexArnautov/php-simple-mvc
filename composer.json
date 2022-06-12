@@ -1,0 +1,23 @@
+{
+  "name": "arnautov_alex/mvc",
+  "description": "Simple Best Practices MVC",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "aarnautov",
+      "email": "arnautov.alexdev@gmail.com"
+    }
+  ],
+  "require": {
+    "psr/http-message": "^1.0",
+    "laminas/laminas-diactoros": "^2.9",
+    "psr/http-client": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "framework\\": "framework",
+      "app\\": "app/"
+    }
+  }
+}
