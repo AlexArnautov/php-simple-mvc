@@ -12,10 +12,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $this->response = $this->response->withHeader('sdfdf','sdfsdf');
+        $this->response = $this->response->withHeader('sdfdf', 'sdfsdf');
         $this->response = $this->response->withStatus(403);
 
-        $d =1;
+        $d = 1;
         $test = Config::get('db_name');
         return $this->view->render('home/index.php', ['test_value' => $test]);
     }

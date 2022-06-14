@@ -3,7 +3,6 @@
 namespace framework;
 
 
-
 use Laminas\Diactoros\ServerRequest;
 
 class Controller
